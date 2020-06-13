@@ -1,5 +1,4 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.module.scss';
 import style from './App.module.scss';
 import {Header} from './components/Header/Header';
@@ -17,9 +16,6 @@ function App() {
           <Mainbet />
           <CompareTeams />
           <LastMatches />
-          {/* <Route
-            className={s.links} path="/profile/:userId?" render={() => <ProfileContainer />}/>
-          <Route path="/login" render={() => <Login />} /> */}
         </div>
       </div>
     );
