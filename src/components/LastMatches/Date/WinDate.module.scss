@@ -1,0 +1,30 @@
+.dateofmatch {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  width: 180px;
+}
+.datetext {
+  font-size: 11px;
+  line-height: 9px;
+  color: #adb4c5;
+  justify-self: center;
+  text-align: center;
+  margin: 6px;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 33px;
+    top: 9px;
+    width: 8px;
+    border-bottom: 2px solid #3abc33;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    right: 33px;
+    top: 9px;
+    width: 8px;
+    border-bottom: 2px solid #fc4556;
+  }
+}

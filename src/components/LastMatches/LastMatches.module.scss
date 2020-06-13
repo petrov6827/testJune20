@@ -1,0 +1,106 @@
+.lastmatches {
+  font-size: 12px;
+  font-weight: medium;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  background: #fff;
+  margin-bottom: 1px;
+  p {
+    padding: 6px 0;
+  }
+}
+.table {
+  display: flex;
+  justify-content: space-between;
+  background: #f9fbfd;
+}
+.leftteam__vs,
+.rightteam__vs {
+  display: flex;
+}
+.vs__team {
+  position: relative;
+  margin: 10px;
+}
+.vs__win,
+.vs__lose {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 4px;
+  width: 41px;
+  height: 41px;
+  border: 2px solid #3aba34;
+  border-radius: 15px;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.vs__lose {
+  border: 2px solid #fc4556;
+  display: flex;
+}
+.vs__lose__nochance {
+  left: 10px;
+}
+.vs__teamimg {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.vs__teamsvg {
+  margin: 5px;
+  border-radius: 15px;
+}
+.date {
+  border-left: 1px solid #eff2f6;
+  border-right: 1px solid #eff2f6;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.vs__teamname {
+  font-size: 11px;
+  margin-bottom: 8px;
+  flex-wrap: nowrap;
+}
+.vs__teamdate {
+  font-size: 9px;
+  color: #adb4c5;
+  margin: 0;
+  margin-bottom: 11px;
+}
+.vs__score {
+  display: flex;
+  justify-content: space-between;
+  width: 54px;
+  margin: 0 auto;
+}
+.leftscore,
+.rightscore {
+  display: block;
+  margin: 0;
+  color: #455467;
+  font-size: 14px;
+  line-height: 24px;
+  background: #fff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 20px;
+  height: 24px;
+}
+.colon {
+  color: #adb4c5;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}

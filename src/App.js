@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import './App.module.scss';
+import style from './App.module.scss';
+import {Header} from './components/Header/Header';
+import {Title} from './components/Title/Title';
+import {Mainbet} from './components/Mainbet/Mainbet';
+import {CompareTeams} from './components/CompareTeams/CompareTeams';
+import {LastMatches} from './components/LastMatches/LastMatches';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <div className={style.container}>
+        <div className={style.app}>
+          <Header />
+          <Title />
+          <Mainbet />
+          <CompareTeams />
+          <LastMatches />
+          {/* <Route
+            className={s.links} path="/profile/:userId?" render={() => <ProfileContainer />}/>
+          <Route path="/login" render={() => <Login />} /> */}
+        </div>
+      </div>
+    );
 }
 
 export default App;

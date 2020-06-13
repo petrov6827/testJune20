@@ -1,0 +1,110 @@
+.betblock {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.team {
+  width: 424px;
+  background: #fff;
+}
+.leftteam {
+  text-align: right;
+}
+.rightteam {
+  text-align: left;
+}
+.team__infoleft {
+  display: flex;
+  justify-content: flex-end;
+}
+.leftteam__img {
+  margin: 27px 35px 27px 23px;
+}
+.rightteam__img {
+  margin: 24px 25px 28px 35px;
+}
+.team__inforight {
+  display: flex;
+  justify-content: flex-start;
+}
+.textblock__moneyforwin {
+  font-size: 24px;
+  line-height: 10px;
+  color: #455467;
+  margin-top: 43px;
+  margin-bottom: 10px;
+  justify-items: right;
+}
+.textblock__koeff {
+  font-size: 12px;
+  color: #8e98a9;
+  margin: 0;
+  text-align: right;
+}
+.textblock__koeffright {
+  text-align: left;
+}
+.score {
+  color: #96a2b3;
+  font-size: 10px;
+}
+
+.score__container {
+  margin: 20px 10px 24px;
+  padding: 1px 18px;
+  background: #fff;
+  border-radius: 3px;
+}
+.score__total {
+  color: #455467;
+  font-weight: bold;
+  font-size: 25px;
+}
+.score__system,
+.score__total,
+.score__date {
+  margin: 12px 0;
+}
+
+.team__bet {
+  width: 176px;
+  margin: 0 28px;
+  background: #fff;
+  border: 1px solid #f1f3f6;
+  border-radius: 3px;
+  position: relative;
+}
+.bet__win,
+.bet__lose {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+}
+.bet__win {
+  color: #30ac29;
+}
+.bet__lose {
+  color: #ec4b4b;
+}
+.text {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  color: #a8b2bc;
+  padding-bottom: 8px;
+}
+.wincup__img {
+  position: absolute;
+  right: -11px;
+  top: 11px;
+  padding: 4px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.csgo__img {
+  margin-bottom: 23px;
+}

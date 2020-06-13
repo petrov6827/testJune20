@@ -1,0 +1,76 @@
+.compareteams {
+  display: flex;
+  justify-content: center;
+  background-color: #f9fbfd;
+  margin-top: 13px;
+  margin-bottom: 3px;
+}
+.compare__leftteam {
+  display: flex;
+  margin-top: 36px;
+}
+
+.team__name {
+  margin-top: 21px;
+  font-size: 11px;
+}
+
+.compare__rightteam {
+  display: flex;
+  margin-top: 36px;
+}
+
+.leftteam__img {
+  margin-top: 13px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.rightteam__img {
+  margin-top: 13px;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+.compare__centerblock {
+  position: relative;
+  margin-bottom: 7px;
+  border-radius: 3px;
+}
+
+.text {
+  font-size: 10px;
+  background: #fff;
+  margin: 0;
+  padding: 10px 25px;
+  border-bottom: 1px solid #f9fbfd;
+}
+
+.compare__header,
+.compare__system {
+  color: #96a2b3;
+  font-size: 12px;
+}
+
+.compare__system {
+  font-size: 9px;
+  padding: 0 12px;
+}
+
+.lefttriangle {
+  position: absolute;
+  top: 36px;
+  left: 0px;
+  width: 0;
+  height: 0;
+  border-bottom: 61px solid #f9fbfd;
+  border-right: 11px solid transparent;
+}
+.righttriangle {
+  position: absolute;
+  top: 36px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 62px solid #f9fbfd;
+  border-left: 11px solid transparent;
+}
